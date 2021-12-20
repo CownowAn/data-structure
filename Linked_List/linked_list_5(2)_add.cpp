@@ -16,11 +16,7 @@ Node *head = NULL; // 연결리스트의 첫 번째 노드의 주소를 저장�
 int add(int index, char *item){
   if (index<0)
     return 0;
-
-  Node *tmp = (Node *)malloc(sizeof(Node));
-  tmp->data = item;
-  tmp->next = NULL;
-
+  
   if(index==0){
     add_first(item);
     return 1;
