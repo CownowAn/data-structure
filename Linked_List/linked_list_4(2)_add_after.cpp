@@ -13,7 +13,7 @@ Node *head = NULL; // 연결리스트의 첫 번째 노드의 주소를 저장�
 
 // 어떤 노드 뒤에 새로운 노드를 삽입하는 함수
 // 삽입에 성공하면 1, 아니면 0을 반환한다.
-int insert_after(Node *prev, char *item){
+int add_after(Node *prev, char *item){
   if (prev==NULL)
   return 0;
 
