@@ -11,7 +11,6 @@ struct node{
 typedef struct node Node;
 Node *head = NULL; // 연결리스트의 첫 번째 노드의 주소를 저장할 포인터이다.
 
-// 연결리스트 순회하기(traverse)
 // 연결리스트의 index번째 위치에 새로운 노드를 만들어서 삽입한다.
 int add(int index, char *item){
   if (index<0)
