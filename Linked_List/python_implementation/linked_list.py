@@ -13,7 +13,7 @@ class SinglyLinkedList(object):
 
     # Add new node at the end of the linked list
     def append(self, node):
-        if self.head == Node:
+        if self.head == None:
             self.head = node
         else:
             cur = self.head
