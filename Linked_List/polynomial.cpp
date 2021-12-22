@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 struct term {
     int coef;
