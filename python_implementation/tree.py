@@ -192,7 +192,7 @@ class BinSearchTree:
                 # 그에 따라 parent.left 또는 parent.right를 successor가 가지고 있던(없을 수도 있지만) 자식을 가리키도록 한다.
                 if parent.left == successor:
                     if successor.left: parent.left = successor.left
-                    elif successor.right: successor.right
+                    elif successor.right: parent.left = successor.right
                     else: parent.left = None
                 else:
                     if successor.left: parent.right = successor.left
